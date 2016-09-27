@@ -14,6 +14,8 @@ var Users = require('../config/database').Users;
 router.get('/', function(req, res) {
   if (req.session.username)
   	res.json(req.session.username);
+  else
+  	res.json('{"user":"nobody logged in"}');
 });
 
 /* New user login option. */
@@ -28,17 +30,6 @@ router.post('/', function(req, res) {
 			
 				req.session.username = user.Username
 				res.redirect('/login');
-				// res.json(user);
-				// console.log(user.get({
-				// 	plain: true
-				// }));
-				//res.redirect('/login');
-				// req.session.destroy(function(err) {
-				//   if (err) {
-				//     throw err;
-				//   }
-				//   res.json({"status": "admin logged out"});
-				// });
 			}
 			else {
 				res.redirect('/');
