@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import 'https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.well-navbar {
+	height: 120px;
+}
+
+.well-logo {
+	margin-top: -10px;
+	margin-left: -40px;
+	padding-bottom: 60px;
+}
+
+.link-content {
+	margin-top: -9px;
+	margin-bottom: 28px;
+	margin-right: -20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #777777;
+	float: right; 
+}
+
+.buttons {
+	padding: 10px;
+}
+
+.blank-space {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.group-rounded-button,
+.group-rounded-button:hover {
+	background-color: #bfbfbf;
+	border-radius: 0px 20px 20px 0px;
+	color: #fff;
+	height: 40px;
+	width: 50px;
+	outline: none!important;
+	border: none!important;
+}
+
+.group-rounded-button:hover {
+	background-color: #aaaaaa!important;
+	color: #fff;
+	height: 40px;
+	outline: none!important;
+	border: none!important;
+}
+
+.group-rounded-input {
+	background-color: #fff;
+	border-radius: 20px 0px 0px 20px;
+	border: none;
+	text-indent: 10px;
+	height: 40px;
+}
+
+.rounded-input {
+	background-color: #fff;
+	border-radius: 20px 20px 20px 20px;
+	border: none;
+	text-indent: 10px;
+	height: 40px;
+}
+
+.rounded-button,
+.rounded-button:hover,
+.rounded-button:active,
+.rounded-button:focus {
+	border-radius: 20px;
+	background-color: #F5BD07;
+	border: none;
+	color: #fff!important;
+	text-shadow: 1px 0px 1px 0px #325760;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	padding: 10px;
+	height: 40px;
+	width: 150px;
+	outline: none;
+}
+
+.rounded-button:active {
+	background-color: #d6a208!important;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.footer {
+	background-color: #252525;
+	margin-bottom: 0px!important;
+}
+
+.footer-black {
+	background-color: #1a1a1a;
+	padding-top: 15px!important;
+	padding-bottom: 1px!important;
+	margin-top: 0px!important;
+}
+
+.footer-heading {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #a28680;
+	display: block;
+	padding-bottom: 15px;
+}
+
+.footer-contents {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #8e8d8c;
+	display: block;
+	padding-bottom: 14px;
+}
+
+.footer-address {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #8e8d8c;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.footer-contact {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	color: #8e8d8c;
+	display: block;
+	padding-top: 10px;
+}
+
+.footer-newsletter {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #535353;
+	display: block;
+	padding-bottom: 14px;
+}
+
+
+.footer-splitter {
+	box-shadow: .2px 0px 0px 0px #9f9f9f;
+	border-right: 2px solid #1f1f1f;
+	height: 225px;
+	float: right;
+}
+
+.footer-horizontal-splitter {
+	height: 1px;
+	box-shadow: 0px .2px 0px 0px #9f9f9f;
+	border-top: 1px solid #1f1f1f;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.footer-input {
+	margin-top: 15px;
+	background-color: #2B2B2B;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #383838;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	height: 40px;
+	width: 250px;
+	outline: none;
+	text-align: center;
+}
+
+.footer-input::-webkit-input-placeholder {
+	color: #535353;
+}
+.footer-input::-moz-placeholder {
+	color: #535353;
+}
+.footer-input::-ms-input-placeholder {
+	color: #535353;
+}
+
+.footer-button,
+.footer-button:focus {
+	border-radius: 20px;
+	background-color: #a28680;
+	border: none;
+	color: #fff!important;
+	text-shadow: 1px 0px 1px 0px #325760;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	height: 40px;
+	width: 250px;
+	outline: none;
+	display: block;
+}
+
+.footer-button:hover,
+.footer-button:active {
+	transition: .5s;
+	background-color: #ed8b23!important;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.social-button,
+.social-button:focus {
+	border-radius: 20px;
+	width: 40px;
+	background-color: #a28680;
+	border: none;
+	color: #252525;
+	padding: 5px;
+	margin: 5px;
+	outline: none!important;
+}
+
+.facebook-button:hover,
+.facebook-button:active {
+	transition: .3s;
+	background-color: #fff!important;
+	color:#3b5998;
+	border: 1px!important;
+	outline: none!important;
+}
+.facebook-button:hover,
+.facebook-button:active {
+	transition: .3s;
+	background-color: #fff!important;
+	color:#3b5998;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.google-button:hover,
+.google-button:active {
+	transition: .3s;
+	background-color: #fff!important;
+	color:#e74c3c;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.linkedin-button:hover,
+.linkedin-button:active {
+	transition: .3s;
+	background-color: #fff!important;
+	color:#1884BB;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.twitter-button:hover,
+.twitter-button:active {
+	transition: .3s;
+	background-color: #fff!important;
+	color:#33CCFF;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.youtube-button:hover,
+.youtube-button:active {
+	transition: .3s;
+	background-color: #fff!important;
+	color:#D02020;
+	border: 1px!important;
+	outline: none!important;
+}
+
+.footer-images {
+	width: 150px;
+	margin: 10px;
+}
+
+.copyright-text {
+	font-family: Helvetica;
+	font-size: 12px!important;
+	color: #414141;
+	text-align: center;
+}
